@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/list_item"
+              android:layout_width="match_parent"
+              android:background="@drawable/border"
+              android:layout_marginBottom="7dp"
+              android:layout_height="80dp"
+              android:orientation="vertical">
+
+    <RelativeLayout android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="3dp"
+    >
+
+
+        <ImageView android:id="@+id/haberResim"
+                   android:layout_width="80dp"
+                   android:layout_height="80dp"/>
+
+        <LinearLayout android:id="@+id/linear"
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:layout_marginLeft="5dp"
+                      android:layout_alignParentRight="true"
+                      android:layout_marginTop="10dp"
+                      android:layout_toRightOf="@id/haberResim"
+                      android:orientation="vertical">
+
+            <TextView android:id="@+id/haberBaslik" android:layout_width="match_parent"
+                      android:layout_height="wrap_content" android:layout_marginBottom="5dp"
+                      android:text="Haber Başlıgı" android:textStyle="bold"/>
+            <TextView android:id="@+id/haberAciklama" android:layout_width="match_parent"
+                      android:layout_height="wrap_content" android:text="Haber açıklaması"/>
+
+
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

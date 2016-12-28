@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">News</string>
+    <string name="error_message">İnternet Yok</string>
+</resources>
